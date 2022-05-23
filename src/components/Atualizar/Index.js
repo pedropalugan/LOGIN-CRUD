@@ -36,7 +36,7 @@ function Atualizar() {
                     <form>
                         <div className="input-box">
                             <span>Username</span>
-                            <input type="email" className='reste' placeholder="email, please" onChange={e => setEmail(e.target.value)}/>
+                            <input type="email" className='reste' placeholder="Email" onChange={e => setEmail(e.target.value)}/>
                             <div className="mb-3">
                         </div>
                         </div>
